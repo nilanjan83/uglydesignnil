@@ -1,0 +1,371 @@
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.main {
+  width: 100%;
+  height: 100%;
+  background:  rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(100px);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 11%;
+  width: 100%;
+  margin-top: 3%;
+}
+.sou {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 2%;
+}
+.ugly {
+  width: 50%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  /* Button Drop */
+
+  box-shadow: 10px 15px 40px rgba(175, 175, 175, 0.1);
+  border-radius: 10px;
+}
+.portfolio {
+  width: 47px;
+  height: 15px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+
+  /* dark */
+
+  color: #676767;
+}
+.team {
+  width: 30px;
+  height: 15px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+
+  /* dark */
+
+  color: #676767;
+}
+.contact {
+  width: 59px;
+  height: 15px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+
+  /* dark */
+
+  color: #676767;
+}
+.lud {
+  height: 100%;
+  width: 30%;
+  align-items: center;
+  margin-left: 50%;
+}
+.boxm {
+  width: 80%;
+  height: 40%;
+  display: flex;
+  margin-right: 5%;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  /* Button Drop */
+
+  box-shadow: 10px 15px 40px rgba(175, 175, 175, 0.1);
+  border-radius: 10px;
+}
+.let {
+  width: 71px;
+  height: 15px;
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: flex-end;
+  color: #ff5555;
+}
+.container {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container1 {
+  height: 50%;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.container2 {
+  height: 50%;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.title {
+  width: 55%;
+  height: 100%;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200%;
+margin-bottom: 5%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+
+  color: #676767;
+}
+.bigug {
+  color: #ff5555;
+}
+.box1 {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+
+  background: white;
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s;
+}
+
+
+
+
+.boxl {
+  width: 35%;
+  height: 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* Primary */
+
+  background: #ff5555;
+  /* Drop */
+
+  box-shadow: 10px 20px 40px rgba(82, 82, 82, 0.19);
+  border-radius: 35.5px;
+}
+
+
+
+.des {
+  width: 100;
+  height: 100;
+  margin-bottom: 5%;
+
+  
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #676767;
+}
+.play {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #ffffff;
+  /* Button Drop */
+
+  box-shadow: 10px 15px 40px rgba(175, 175, 175, 0.1);
+}
+.hi {
+  width: 100%;
+  height: 50%;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: rgb(245, 240, 240);
+}
+.how {
+  width: 118px;
+  height: 23px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #676767;
+}
+.footer {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.visit {
+  width: 100%;
+  height: 100%;
+  font-family: Oxygen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 300;
+  /* identical to box height */
+  color: #676767;
+}
+.sm {
+  width: 25%;
+  display: flex;
+  margin: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.be {
+  left: 42.17%;
+  right: 55.64%;
+  top: 85.61%;
+  bottom: 10.88%;
+}
+.fb {
+  left: 61.05%;
+  right: 36.75%;
+  top: 85.61%;
+  bottom: 10.88%;
+}
+.ins {
+  left: 48.46%;
+  right: 49.34%;
+  top: 85.61%;
+  bottom: 10.88%;
+}
+.twi {
+  left: 54.76%;
+  right: 43.05%;
+  top: 85.61%;
+  bottom: 10.88%;
+}
+.play {
+  width: 56px;
+  height: 56px;
+  left: 910px;
+  top: 508px;
+
+  background: #ffffff;
+  /* Button Drop */
+
+  box-shadow: 10px 15px 40px rgba(175, 175, 175, 0.1);
+}
+.play2 {
+  width: 24px;
+  height: 24px;
+  left: 950px;
+  top: 524px;
+
+  /* Primary */
+
+  background: ;
+  border-radius: 2px;
+  transform: ;
+}
+.desi {
+  width: 277px;
+  height: 45px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 45px;
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
+.what {
+  width: 238px;
+  height: 23px;
+
+  font-family: Oxygen;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #000000;
+}
