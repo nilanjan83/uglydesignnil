@@ -1,12 +1,15 @@
 body {
   height: 100vh;
   width: 100vw;
+  background-color: #f7f5f0;
+  background-image: linear-gradient(45deg, #f7f5f0 35%, #edbfb6 100%);
 }
 .main {
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(100px);
+  background-color: #f7f5f0;
+  background-image: linear-gradient(45deg, #f7f5f0 35%, #edbfb6 100%);
 }
 .header {
   display: flex;
@@ -24,8 +27,8 @@ body {
   margin-left: 2%;
 }
 .ugly {
-  width: 50%;
-  height: 15%;
+  width: 30%;
+  height: 55%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -283,4 +286,124 @@ text-decoration: none;
     align-items: flex-end;
     
     color: #F9F9F9;
+  }
+  @media(max-width:768px){
+    .container{
+      width:100%;
+      align-items: space-between;
+    }
+  }
+  @media(max-width:768px){
+    .container2{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .container21{
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .box1{
+      width:90%;
+      margin-bottom: 5%;
+      display: flex;
+      
+    }
+    .box2{
+      width:90%;
+      margin-bottom: 5%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .box3{
+      width:90%;
+      margin-bottom: 5%;
+      display: flex;
+      flex-wrap: wrap;5
+    }
+    .box4{
+      width:90%;
+      margin-bottom: 5%;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .box5{
+      width:90%;
+      margin-bottom: 5%;
+      align-items: space-around;
+      justify-content: space-around;
+    }
+    .box6{
+      width:90%;
+      margin-bottom: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: space-around;
+      justify-content: space-around;
+    }
+    
+    
+  }
+  @media(max-width:768px){
+    .footer{
+      margin-top:125%;
+    }
+    
+  }
+  @media (max-width: 768px) {
+    .header {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+    .portfolio {
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+    .team {
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+    .contact {
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+    .sou {
+      width: 18%;
+      display: flex;
+      flex-direction: column;
+    }
+    .lud {
+      width: 30%;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 30px;
+    }
+    .ugly {
+      width: 145%;
+      height:35%;
+      display: flex;
+      justify-content: center;
+      margin-left: 10px;
+      margin-top: 5px;
+      padding: 2px;
+    }
+  }
+  
+  @media(max-width:768px){
+    .container{
+      margin-top:15%;
+    }
+    .desi{
+      width:45%;
+    }
+  }
+  @media(max-width:768px){
+    .footer{
+      margin-top: 150%; 
+    }
+    .boxn{
+      width:40%;
+    }
+
   }
